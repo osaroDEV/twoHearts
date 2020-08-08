@@ -1,0 +1,27 @@
+body {
+	/*remove default margin & padding */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+	/* center both buttons */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	font-size: 4em; /* increase content size */
+	border: none; /* remove border */
+	margin: 5px; /* create margin around buttons */
+	border-radius: 10px;
+}
+
+button:hover {
+	cursor: pointer; /* transforms the arrow to a pointer */
+}
+
+h1 {
+	align-self: flex-start;
+	position: absolute;
+}
